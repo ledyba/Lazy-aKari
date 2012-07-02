@@ -93,7 +93,7 @@
 						(loop src (cons S acc) (+ 4 idx) total))
 					((starts-with src idx "あかり") ;k
 						(loop src (cons K acc) (+ 3 idx) total))
-					((starts-with src idx "だいすき") ;i
+					((starts-with src idx "大好き") ;i
 						(loop src (cons I acc) (+ 4 idx) total))
 					(else
 						(loop src acc (+ 1 idx) total))))))
